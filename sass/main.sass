@@ -1,17 +1,27 @@
 
 @import "variables"
+@import "navibar"
 @import "footer"
+
+hr
+  color: #dddddd
+  border: 1px
+  border-style: solid
+  width: 1278px
+  margin: 0 auto
+
 
 body
   background-color: #566680
+  font-family: Arial
 
 
 div
   width: 1280px
   // background-color: white
   margin: 0 auto
-  margin-top: 1px
-  margin-bottom: 1px
+  // margin-top: 1px
+  // margin-bottom: 1px
 
 .outbox
   background-color: #8994A6
@@ -19,28 +29,28 @@ div
   width: 1355px
   // margin: 0 auto
 
-$webtitle-height : 185px
-.webtitle
+$titlebox-height : 185px
+.titlebox
   background-color: white
-  height: $webtitle-height
+  height: $titlebox-height
+  padding-top: 65px
 
+$title-height: 90px
 .companyname
   font-size: 55px
   color: white
   background-color: #B998B4
   text-align: center
-  height: 90px
-  line-height: 90px
+  height: $title-height
+  line-height: $title-height
   width: 470px
   margin-left: 27px
 
-.navibar
-  height: 61px
-  background-color: white
 
 .centerbox
   height: 50px
-  background-color: #1196F1
+  background-color: white
+  // background-color: #1196F1
 
 .clear
   clear: both
