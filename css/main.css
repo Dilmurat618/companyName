@@ -20,6 +20,22 @@
           color: white;
           font-weight: bold; }
 
+.centerbox {
+  width: 1280px;
+  margin: 0 auto; }
+  .centerbox .contents {
+    margin: 0 auto;
+    width: 853px;
+    height: 840px;
+    float: left;
+    background-color: green; }
+  .centerbox .sidebar {
+    height: 840px;
+    width: 426px;
+    float: right;
+    margin: 0 auto;
+    background-color: yellow; }
+
 .footercontent {
   background-color: #222222;
   width: 1280px;
@@ -72,6 +88,7 @@ div {
 
 .companyname {
   font-size: 55px;
+  font-weight: bold;
   color: white;
   background-color: #B998B4;
   text-align: center;
@@ -79,10 +96,6 @@ div {
   line-height: 90px;
   width: 470px;
   margin-left: 27px; }
-
-.centerbox {
-  height: 50px;
-  background-color: white; }
 
 .clear {
   clear: both; }
