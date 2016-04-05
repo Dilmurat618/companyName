@@ -23,18 +23,55 @@
 .centerbox {
   width: 1280px;
   margin: 0 auto; }
-  .centerbox .contents {
-    margin: 0 auto;
-    width: 853px;
-    height: 840px;
-    float: left;
-    background-color: green; }
-  .centerbox .sidebar {
-    height: 840px;
-    width: 426px;
-    float: right;
-    margin: 0 auto;
-    background-color: yellow; }
+
+.contents {
+  width: 853px;
+  float: left;
+  background-color: white; }
+
+.sidebar {
+  height: 840px;
+  width: 426px;
+  float: right;
+  margin: 0 auto;
+  background-color: yellow; }
+
+article {
+  margin-bottom: 19px;
+  padding: 15px 45px; }
+  article h2 {
+    margin-bottom: 5px;
+    color: #2D2F24; }
+    article h2 a {
+      color: #2D2F24;
+      text-decoration: none;
+      font-weight: bold; }
+      article h2 a:hover {
+        text-decoration: underline; }
+
+.article-info {
+  padding-left: 13px;
+  font-size: 7px;
+  color: #999999;
+  font-style: italic; }
+  .article-info a {
+    color: #666666; }
+
+p {
+  line-height: 35px;
+  margin-bottom: 31px;
+  font-size: 17px; }
+
+button {
+  background-color: #996699;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 7px 11px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white; }
+  button:hover {
+    background-color: #cc99cc; }
 
 .footercontent {
   background-color: #222222;
